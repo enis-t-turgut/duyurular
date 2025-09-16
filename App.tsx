@@ -1,9 +1,9 @@
 
 import React, { useState, useEffect } from 'react';
-import type { Announcement } from './types';
-import { getAnnouncements } from './services/announcementService';
-import Header from './components/Header';
-import Timeline from './components/Timeline';
+import type { Announcement } from './types.ts';
+import { getAnnouncements } from './services/announcementService.ts';
+import Header from './components/Header.tsx';
+import Timeline from './components/Timeline.tsx';
 
 const App: React.FC = () => {
   const [announcements, setAnnouncements] = useState<Announcement[]>([]);

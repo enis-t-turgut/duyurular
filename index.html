@@ -60,12 +60,9 @@
   <body class="bg-slate-50 dark:bg-slate-900 transition-colors duration-500">
     <div id="root"></div>
     <!-- 
-      DIAGNOSTIC TEST: The external script has been replaced with this inline script 
-      to check if Babel transpilation is working within the page itself.
+      Load the main application script. 
+      'data-type="module"' is crucial for enabling ES module support (import/export).
     -->
-    <script type="text/babel">
-      console.log("Inline diagnostic test is running...");
-      document.body.innerHTML = '<h1 style="text-align: center; margin-top: 50px; font-family: sans-serif; color: #333;">Test Başarılı! Inline Script çalışıyor.</h1>';
-    </script>
+    <script type="text/babel" data-type="module" src="./index.tsx"></script>
   </body>
 </html>
