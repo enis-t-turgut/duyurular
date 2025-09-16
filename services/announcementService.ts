@@ -1,5 +1,5 @@
 
-import type { Announcement } from '../types.ts';
+import type { Announcement } from '../types';
 
 export const getAnnouncements = async (): Promise<Announcement[]> => {
   const response = await fetch('./announcements.json');

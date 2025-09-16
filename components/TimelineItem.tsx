@@ -1,6 +1,6 @@
 import React from 'react';
-import type { Announcement } from '../types.ts';
-import ExternalLinkIcon from './icons/ExternalLinkIcon.tsx';
+import type { Announcement } from '../types';
+import ExternalLinkIcon from './icons/ExternalLinkIcon';
 
 interface TimelineItemProps {
   announcement: Announcement;

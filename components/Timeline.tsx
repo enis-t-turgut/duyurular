@@ -1,6 +1,6 @@
 import React from 'react';
-import type { Announcement } from '../types.ts';
-import TimelineItem from './TimelineItem.tsx';
+import type { Announcement } from '../types';
+import TimelineItem from './TimelineItem';
 
 interface TimelineProps {
   announcements: Announcement[];
