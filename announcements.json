@@ -1,0 +1,27 @@
+
+[
+  {
+    "date": "2024-08-15",
+    "title": "Version 1.1 TEST abc",
+    "description": "We've just shipped version 1.1, which includes major performance improvements and several critical bug fixes. See the release notes for details.",
+    "file": "docs/2024-08-15-v1.1-release.md"
+  },
+  {
+    "date": "2024-07-28",
+    "title": "Official Project Launch!",
+    "description": "We are thrilled to announce the official launch of our project. Thank you to all our early testers and contributors for making this possible.",
+    "file": "docs/2024-07-28-project-launch.md"
+  },
+  {
+    "date": "2024-07-10",
+    "title": "New Documentation Site",
+    "description": "Our new and improved documentation site is now live! We've reorganized the content to make it easier to find what you need.",
+    "file": "docs/2024-07-10-new-docs.md"
+  },
+  {
+    "date": "2024-06-20",
+    "title": "Beta Program Kickoff",
+    "description": "The public beta program has officially started. We're looking for feedback to help us prepare for the official launch.",
+    "file": "docs/2024-06-20-beta-program.md"
+  }
+]

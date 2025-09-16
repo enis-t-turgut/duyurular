@@ -1,0 +1,5 @@
+{
+  "name": "Project Timeline Announcements",
+  "description": "An elegant, timeline-based announcement page for GitHub projects. It dynamically loads announcement data from a JSON file and presents it in a clean, responsive interface. To add a new announcement, add a new markdown file to your 'docs' folder and then add a corresponding entry to the 'announcements.json' file with the date, title, description, and link to your markdown file.",
+  "requestFramePermissions": []
+}
