@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Timeline Announcements</title>
+    <!--
+      The <base> tag is added to fix asset pathing issues when deploying to a subdirectory on GitHub Pages.
+      The href should match the repository name from your GitHub URL (e.g., /repository-name/).
+      
+      IMPORTANT: This may break local development if you are serving from the root.
+      For local development, you might need to comment out or remove this line.
+    -->
+    <base href="/duyurular/">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
